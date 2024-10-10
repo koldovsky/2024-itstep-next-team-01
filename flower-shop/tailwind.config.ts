@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        headerBg: '#F6F1ED',
+        primaryText: '#7C7669',
+        hoverText: '#9CA3AF',
+        overlayBg: '#F6F1ED',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },
