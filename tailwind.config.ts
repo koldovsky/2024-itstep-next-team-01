@@ -15,7 +15,9 @@ const config: Config = {
         overlayBg: '#F6F1ED',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['var(--font-inter)'],
+        serif: ['var(--font-frank-ruhl-libre)'],
+        script: ['var(--font-mrs-saint-delafield)'],
       },
     },
   },
