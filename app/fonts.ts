@@ -14,8 +14,8 @@ export const frankRuhlLibre = Frank_Ruhl_Libre({
 })
 
 export const mrsSaintDelafield = Mrs_Saint_Delafield({
-    weight: '400',
     subsets: ['latin'],
     display: 'swap',
-    variable: '--mrs_saint_delafield',
+    variable: '--font-mrs_saint_delafield',
+    weight: '400'
 })
