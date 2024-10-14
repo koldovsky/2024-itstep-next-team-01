@@ -14,6 +14,7 @@ const config: Config = {
         hoverText: '#9CA3AF',
         overlayBg: '#F6F1ED',
         secondaryText: '#918c74',
+        contentText: '#a39f96',
         specialText: '#b7bec6',
         hrColor:'#b7bec6',
         primaryButton:'#6f6c4e',

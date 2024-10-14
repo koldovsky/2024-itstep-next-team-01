@@ -6,7 +6,7 @@ import { Button } from '../button'
 export default function Cover() {
 
     return (
-        <div className={`relative w-full medium overflow-hidden md:p-32 p-10`}>
+        <section className={`relative w-full medium overflow-hidden md:p-32 p-10`}>
             <Image
                 src={cover_image}
                 alt='cover image'
@@ -29,6 +29,6 @@ export default function Cover() {
                 </p>
                 <Button variant='secondary' className='mt-5'>LEARN MORE</Button>
             </div>
-        </div>
+        </section>
     )
 }
