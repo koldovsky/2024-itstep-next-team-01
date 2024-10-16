@@ -18,7 +18,7 @@ export default function Header() {
   }, [isOpen]);
 
   return (
-    <header className="bg-headerBg text-primaryText h-[112px] fixed w-full top-0 left-0 z-50 pl-7 pr-9">
+    <header className=" text-primaryText h-[112px]w-full top-0 left-0 z-50 pl-7 pr-9">
       <div className="container max-w-[1170px] mx-auto flex justify-between items-center h-full">
         <Logo />
         <button
@@ -26,9 +26,9 @@ export default function Header() {
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <FaTimes className="w-6 h-6" /> 
+            <FaTimes className="w-6 h-6" />
           ) : (
-            <FaBars className="w-6 h-6" /> 
+            <FaBars className="w-6 h-6" />
           )}
         </button>
         <Navigation isDesktop={true} />
@@ -37,6 +37,6 @@ export default function Header() {
         </div>
       </div>
       <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
-    </header> 
+    </header>
   );
 }
