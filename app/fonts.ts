@@ -1,5 +1,5 @@
 import { Inter, Frank_Ruhl_Libre, Mrs_Saint_Delafield, } from 'next/font/google'
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 
 export const inter = Inter({
     subsets: ['latin'],
