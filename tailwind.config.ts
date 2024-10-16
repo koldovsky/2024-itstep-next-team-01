@@ -22,9 +22,9 @@ const config: Config = {
         secondaryButton:'#7C7669',
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
-        serif: ['var(--font-frank-ruhl-libre)'],
-        script: ['var(--font-mrs_saint_delafield)'],
+        inter: ['var(--font-inter)'],
+        frank: ['var(--font-frank-ruhl-libre)'],
+        mrsSaint: ['var(--font-mrs_saint_delafield)'],
       },
     },
   },
