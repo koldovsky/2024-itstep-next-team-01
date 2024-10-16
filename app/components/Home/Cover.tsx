@@ -18,7 +18,7 @@ export default function Cover() {
             <div className="absolute inset-0 z-10" />
             <div className="relative z-20 flex flex-col items-start justify-start h-full  md:w-6/12">
                 <label className='text-specialText font-script text-3xl'>
-                    Sami's  flowers
+                    Sami&apos;s  flowers
                 </label>
                 <h1 className="text-3xl md:text-5xl text-primaryText mb-4 font-serif">
                     Beautiful Flowers for any Occasion
