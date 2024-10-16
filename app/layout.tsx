@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/layout/header/Header";
+import { inter, frankRuhlLibre, mrsSaintDelafield } from './fonts'
+import Footer from "./components/layout/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Sami's Flowers",
@@ -14,9 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Header /> 
+      <body className={`${inter.variable} ${frankRuhlLibre.variable} ${mrsSaintDelafield.variable} font-sans bg-overlayBg`}>
+        <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
