@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         headerBg: '#F6F1ED',
         primaryText: '#7C7669',
+        footerText: '#8b7f74',
+        footerHoverText: '#6b5b53]',
         hoverText: '#9CA3AF',
         overlayBg: '#F6F1ED',
         secondaryText: '#918c74',
@@ -22,9 +24,9 @@ const config: Config = {
         secondaryButton:'#7C7669',
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
-        serif: ['var(--font-frank-ruhl-libre)'],
-        script: ['var(--font-mrs_saint_delafield)'],
+        inter: ['var(--font-inter)'],
+        frank: ['var(--font-frank-ruhl-libre)'],
+        mrsSaint: ['var(--font-mrs_saint_delafield)'],
       },
     },
   },
