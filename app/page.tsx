@@ -1,6 +1,7 @@
 import Cover from "./components/Home/Cover";
 import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
+import SpecialCollectionsContainer from "./components/special-collections/SpecialCollectionsContainer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Cover />
       <Features />
       <WorkingSectors />
+        <SpecialCollectionsContainer />
     </div>
   );
 }

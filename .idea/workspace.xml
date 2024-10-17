@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7979222c-a541-4e47-a5ca-1ab2316ea269" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/special-collections/autumn_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/special-collections/mother_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/special-collections/valentine_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsTitle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature-special-collections",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Project/2024-itstep-next-team-01/public/specail-collections",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,10 +52,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\2024-itstep-next-team-01\public\specail-collections" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
       </set>
     </attachedChunks>
   </component>
@@ -63,7 +73,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729017489421</updated>
       <workItem from="1729017490856" duration="663000" />
-      <workItem from="1729100540478" duration="7743000" />
+      <workItem from="1729100540478" duration="14641000" />
+      <workItem from="1729118152918" duration="34000" />
+      <workItem from="1729118239486" duration="5741000" />
     </task>
     <servers />
   </component>
