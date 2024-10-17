@@ -11,8 +11,8 @@ export default function AboutUs() {
               <Image
                 src={aboutus_img}
                 alt="Florist arranging flowers"
-                width={600}
-                height={450}
+                width={550}
+                height={400}
                 style={{ objectFit: 'cover' }}
                 className="rounded-t-full"
               />
