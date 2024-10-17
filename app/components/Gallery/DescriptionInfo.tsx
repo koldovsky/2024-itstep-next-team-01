@@ -10,7 +10,7 @@ export default function DescriptionInfo() {
                 </p>
             </div>
             <div className="flex-shrink-0 w-3/12 ">
-                <div className="flex items-center bg-[#f5f5f5] rounded-lg">
+                <div className="flex items-center rounded-lg">
                     <div className="bg-[#606c38] rounded-full p-3 mr-4">
                         <Image
                             src="/features/gallery-feature-photos/call-us.png"
@@ -22,7 +22,7 @@ export default function DescriptionInfo() {
                     </div>
                     <div>
                         <h3 className="text-2xl text-primaryText font-serif">Order Flowers Now</h3>
-                        <p className="text-contentText">Call us:<p className="font-bold text-primaryText ">+1 (234) 567 89 00</p></p>
+                        <p className="text-contentText">Call us:<p className="font-bold text-primaryText hover:underline">+1 (234) 567 89 00</p></p>
                     </div>
                 </div>
             </div>
