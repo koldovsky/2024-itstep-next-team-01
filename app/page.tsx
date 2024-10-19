@@ -2,6 +2,7 @@ import Cover from "./components/Home/Cover";
 import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
 import AboutUs from "./components/Home/AboutUs";
+import NewInShop from "./components/Home/NewInShop";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Cover />
       <Features />
       <AboutUs />
+      <NewInShop />
       <WorkingSectors />
     </div>
   );

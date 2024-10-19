@@ -1,59 +1,61 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 interface FlowerItem {
+    id:number;
     Img: string;
     Name: string;
     price: number;
     inStock: boolean;
-    sale: number | null;
-    lable: string | null;
+    sale?: number;
+    label?: string;
     currency: string;
 }
 
 const flowerItem: FlowerItem[] = [
     {
-        Img: "https://example.com/images/rose.jpg",
+        id: 1,
+        Img: "/flower.png",
         Name: "Red Rose",
         price: 15.99,
         inStock: true,
-        sale: 0.1,
-        lable: "Valentine's Special",
+        sale: 13.99,
+        label: "Valentine's Special",
         currency: "USD"
     },
     {
-        Img: "https://example.com/images/tulip.jpg",
+        id: 2,
+        Img: "/flower.png",
         Name: "Yellow Tulip",
         price: 10.49,
         inStock: true,
-        sale: null,
-        lable: null,
         currency: "USD"
     },
     {
-        Img: "https://example.com/images/orchid.jpg",
+        id: 3,
+        Img: "/flower.png",
         Name: "Purple Orchid",
         price: 25.00,
         inStock: false,
-        sale: null,
-        lable: "Sold Out",
+        label: "Sold Out",
         currency: "USD"
     },
     {
-        Img: "https://example.com/images/sunflower.jpg",
+        id: 4,
+        Img: "/flower.png",
         Name: "Sunflower Bouquet",
         price: 20.00,
         inStock: true,
-        sale: 0.15,
-        lable: "Summer Sale",
+        sale: 16.00,
+        label: "Summer Sale",
         currency: "USD"
     },
     {
-        Img: "https://example.com/images/lily.jpg",
+        id: 5,
+        Img: "/flower.png",
         Name: "White Lily",
         price: 18.75,
         inStock: true,
-        sale: null,
-        lable: "Limited Edition",
+        label: "Limited Edition",
         currency: "USD"
     }
 ]

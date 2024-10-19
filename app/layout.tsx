@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "./components/layout/header/Header";
 import { inter, frankRuhlLibre, mrsSaintDelafield } from './fonts'
 import Footer from "./components/layout/footer/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const metadata: Metadata = {
   title: "Sami's Flowers",
