@@ -33,7 +33,7 @@ export default function ShopItem({
     const stockLabel = !inStock ? "Out of Stock" : label
 
     return (
-        <div className={`max-w-md rounded overflow-hidden  ${!inStock ? 'opacity-75' : ''}`}>
+        <div className={`max-w-md mx-auto overflow-hidden  ${!inStock ? 'opacity-75' : ''}`}>
             <div className="relative">
                 <Image
                     src={Img}
