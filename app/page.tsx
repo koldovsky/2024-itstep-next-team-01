@@ -3,6 +3,7 @@ import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
 import AboutUs from "./components/Home/AboutUs";
 import NewInShop from "./components/Home/NewInShop";
+import Testimonials from "./components/Home/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs />
       <NewInShop />
       <WorkingSectors />
+      <Testimonials />
     </div>
   );
 }
