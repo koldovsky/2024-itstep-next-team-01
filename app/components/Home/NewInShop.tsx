@@ -109,7 +109,7 @@ export default function NewInShop() {
                 <div className="relative w-screen xl:w-11/12 mx-auto">
                     <Slider {...settings}>
                         {shopItems.map((item) => (
-                            <div >
+                            <div key={item.id}>
                                 <ShopItem
                                     Img={item.Img}
                                     Name={item.Name}
@@ -123,6 +123,7 @@ export default function NewInShop() {
                             </div>
                         ))}
                     </Slider>
+
                 </div>
             </div>
         </section>
