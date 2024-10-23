@@ -4,6 +4,7 @@ import WorkingSectors from "./components/Home/WorkingSectors";
 import AboutUs from "./components/Home/AboutUs";
 import NewInShop from "./components/Home/NewInShop";
 import Testimonials from "./components/Home/Testimonials";
+import Instagram from "./components/Home/Instagram";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <NewInShop />
       <WorkingSectors />
       <Testimonials />
+      <Instagram />
     </div>
   );
 }
