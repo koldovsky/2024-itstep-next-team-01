@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function ServicesHeader() {
   return (
     <header className="mb-8">
