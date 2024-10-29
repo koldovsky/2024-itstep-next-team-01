@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7979222c-a541-4e47-a5ca-1ab2316ea269" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/special-collections/autumn_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/special-collections/mother_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/special-collections/valentine_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/special-collections/SpecialCollectionsTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="7979222c-a541-4e47-a5ca-1ab2316ea269" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,21 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature-special-collections",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Project/2024-itstep-next-team-01/public/specail-collections",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Project\\2024-itstep-next-team-01\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature-special-collections&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/2024-itstep-next-team-01/public/specail-collections&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Project\\2024-itstep-next-team-01\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\2024-itstep-next-team-01\public\specail-collections" />
@@ -60,7 +51,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19416.2" />
       </set>
     </attachedChunks>
   </component>
@@ -75,7 +66,9 @@
       <workItem from="1729017490856" duration="663000" />
       <workItem from="1729100540478" duration="14641000" />
       <workItem from="1729118152918" duration="34000" />
-      <workItem from="1729118239486" duration="5741000" />
+      <workItem from="1729118239486" duration="6445000" />
+      <workItem from="1729245050094" duration="3456000" />
+      <workItem from="1730204263971" duration="3359000" />
     </task>
     <servers />
   </component>

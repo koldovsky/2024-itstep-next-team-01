@@ -9,7 +9,7 @@ interface SpecialCollectionsItemProps {
 
 export default function SpecialCollectionsItem({ imageSrc, title, description }: SpecialCollectionsItemProps) {
     return (
-        <div className="w-[43%] h-[500px] p-1">
+        <div className="w-full md:w-[48%] lg:w-[30%] h-[500px] p-1 mt-4">
             <div className="relative w-full h-[300px]">
                 <Image
                     src={imageSrc}
