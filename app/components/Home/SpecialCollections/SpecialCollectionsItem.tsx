@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import { Button } from '../button';
+import { Button } from '../../button';
 
 interface SpecialCollectionsItemProps {
     imageSrc: StaticImageData
@@ -9,7 +9,7 @@ interface SpecialCollectionsItemProps {
 
 export default function SpecialCollectionsItem({ imageSrc, title, description }: SpecialCollectionsItemProps) {
     return (
-        <div className="w-full md:w-[48%] lg:w-[30%] h-[500px] p-1 mt-4">
+        <div className="w-full md:w-1/2 lg:w-[30%] h-auto mt-4">
             <div className="relative w-full h-[300px]">
                 <Image
                     src={imageSrc}

@@ -7,9 +7,9 @@ import autumn_image from '@/public/special-collections/autumn_img.jpg';
 
 export default function SpecialCollectionsContainer() {
     return (
-        <section>
+        <section className="px-5">
             <SpecialCollectionsTitle/>
-            <div className="flex flex-wrap justify-center my-10 sm:gap-3 gap-12">
+            <div className="flex flex-wrap justify-center my-10 sm:gap-4 gap-12">
                 <SpecialCollectionsItem
                     imageSrc={mother_image}
                     title="Mother's Day Collection "
