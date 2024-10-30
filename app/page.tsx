@@ -6,7 +6,8 @@ import NewInShop from "./components/Home/NewInShop";
 import Testimonials from "./components/Home/Testimonials";
 import Instagram from "./components/Home/Instagram";
 import ServicesSection from "./components/Home/ServiceSection/ServicesSection";
-
+import MasterClassesSection from "./components/Home/MasterClasses/MasterClassesSection";
+import PageTitle from "@/app/components/Home/AboutUsTitle/PageTitle";
 
 export default function Home() {
   return (
@@ -19,6 +20,12 @@ export default function Home() {
       <WorkingSectors />
       <Testimonials />
       <Instagram />
+        <MasterClassesSection />
+        <PageTitle />
+
+
+
+
     </div>
   );
 }

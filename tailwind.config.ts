@@ -29,6 +29,8 @@ const config: Config = {
         frank: ['var(--font-frank-ruhl-libre)'],
         mrsSaint: ['var(--font-mrs_saint_delafield)'],
       },
+      backgroundImage: {
+        'backgroundTitle': "url('/pageTitle/Image.png')",      }
     },
   },
   plugins: [],
