@@ -4,7 +4,7 @@ import MasterClassesItem from "./MasterClassesItem";
 import spring_flower from '@/public/master-classes/spring-flower.png';
 import rosy_flower from '@/public/master-classes/rosy-flower.png';
 import main_flower from '@/public/master-classes/main-flower.png';
-import {Button} from '../../button';
+import {Button} from '../../components/button';
 
 export default function MasterClassesSection() {
     return (
