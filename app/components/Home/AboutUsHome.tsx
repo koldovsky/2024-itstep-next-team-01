@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import aboutus_img from '@/public/aboutus_img.png';
 
-export default function AboutUs() {
+export default function AboutUsHome() {
   return (
     <section className="bg-overlayBg py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">

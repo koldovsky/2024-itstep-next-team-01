@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddca5389-4913-477c-892c-a4e478139ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/AboutUs/AboutUsTitle/PageTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/AboutUs/AboutUsTitle/PageTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/2024-itstep-next-team-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about-us/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Home/Description.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Home/Gallery/DescriptionInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Home/Gallery/Gallery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Home/Gallery/PhotoGallery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/description-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/boquet-photo-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/bouquet-photo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/bouquet-photo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/call-us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/flower-shop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/two-women-photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/features/gallery-feature-photos/women-photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/AboutUs/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Home/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Home/AboutUsHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/header/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/header/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Dmitry-Savch"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dmitry-Savch&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/koldovsky/2024-itstep-next-team-01.git",
-    "accountId": "02818716-2666-4577-9286-2bf68842035e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/koldovsky/2024-itstep-next-team-01.git&quot;,
+    &quot;accountId&quot;: &quot;02818716-2666-4577-9286-2bf68842035e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -40,7 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature-page-title",
+    "git-widget-placeholder": "Merging feature-page-title",
     "last_opened_file_path": "/Users/dmitrosavcuk/Documents/Проекти/2024-itstep-next-team-01/app/components/AboutUs",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +93,9 @@
       <updated>1730359241606</updated>
       <workItem from="1730359243534" duration="14000" />
       <workItem from="1730359519665" duration="5000" />
-      <workItem from="1730359615365" duration="611000" />
+      <workItem from="1730359615365" duration="2157000" />
+      <workItem from="1730386089773" duration="212000" />
+      <workItem from="1730386313871" duration="1352000" />
     </task>
     <servers />
   </component>
