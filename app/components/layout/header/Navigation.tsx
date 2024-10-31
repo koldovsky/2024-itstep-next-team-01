@@ -8,7 +8,7 @@ export default function Navigation({ isDesktop }: NavigationProps) {
   return (
     <nav className={`${isDesktop ? 'hidden md:flex flex-row space-x-8 text-sm font-normal' : 'text-center text-sm font-normal'}`}>
       {[
-        { href: '/about', label: 'ABOUT US' },
+        { href: '/about-us', label: 'ABOUT US' },
         { href: '/services', label: 'SERVICES' },
         { href: '/flowers', label: 'FLOWERS' },
         { href: '/testimonials', label: 'TESTIMONIALS' },
