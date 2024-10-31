@@ -1,4 +1,3 @@
-
 export default function PageTitle({}) {
     return (
         <div className="px-5 w-full mt-12">
@@ -8,6 +7,5 @@ export default function PageTitle({}) {
                     className="font-bold underline">About us</span></p>
             </div>
         </div>
-
     );
 }
