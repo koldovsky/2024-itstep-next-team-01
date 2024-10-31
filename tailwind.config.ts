@@ -22,6 +22,7 @@ const config: Config = {
         primaryButton:'#6f6c4e',
         primaryButtonHover:'#7c7669',
         secondaryButton:'#7C7669',
+        labelbg: '#F1AA47',
       },
       fontFamily: {
         inter: ['var(--font-inter)'],

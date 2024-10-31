@@ -19,7 +19,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="space-y-6">
-            <p className="text-sm text-contentText uppercase tracking-wider">About us</p>
+            <label className="text-specialText font-mrsSaint text-4xl">About us</label>
             <h2 className="text-3xl sm:text-4xl font-serif text-primaryText leading-tight">
               Our Mission is to Make Your Lives Beautiful
             </h2>

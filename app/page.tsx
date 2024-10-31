@@ -1,8 +1,13 @@
 import Cover from "./components/Home/Cover";
 import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
+import SpecialCollections from "@/app/components/Home/SpecialCollections/SpecialCollectionsContainer";
 import AboutUs from "./components/Home/AboutUs";
 import Description from "./components/Home/Description";
+import NewInShop from "./components/Home/NewInShop";
+import Testimonials from "./components/Home/Testimonials";
+import Instagram from "./components/Home/Instagram";
+import ServicesSection from "./components/Home/ServiceSection/ServicesSection";
 
 export default function Home() {
   return (
@@ -10,8 +15,14 @@ export default function Home() {
       <Cover />
       <Features />
       <AboutUs />
+      <NewInShop />
+      <ServicesSection />
       <WorkingSectors />
         <Description />
+        <SpecialCollections />
+      <Testimonials />
+      <Instagram />
     </div>
   );
 }
+
