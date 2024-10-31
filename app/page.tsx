@@ -1,6 +1,7 @@
 import Cover from "./components/Home/Cover";
 import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
+import Gallery from "@/app/components/Home/Gallery/Gallery";
 import SpecialCollections from "@/app/components/Home/SpecialCollections/SpecialCollectionsContainer";
 import AboutUs from "./components/Home/AboutUs";
 import Description from "./components/Home/Description";
@@ -19,6 +20,7 @@ export default function Home() {
       <ServicesSection />
       <WorkingSectors />
         <Description />
+        <Gallery />
         <SpecialCollections />
       <Testimonials />
       <Instagram />
