@@ -1,7 +1,7 @@
 import Cover from "./components/Home/Cover";
 import Features from "./components/Home/Features";
 import WorkingSectors from "./components/Home/WorkingSectors";
-import Gallery from "./components/Gallery/Gallery";
+import Gallery from "@/app/components/Home/Gallery/Gallery";
 
 export default function Home() {
   return (
