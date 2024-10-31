@@ -9,13 +9,13 @@ interface Image {
   alt: string;
 }
 
-export default function Instagram() {
+export default function Gallery() {
   const [images, setImages] = useState<Image[]>([]);
 
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch('/api/instagram');
+        const response = await fetch('/api/gallery');
         if (response.ok) {
           const data: Image[] = await response.json();
           setImages(data);
