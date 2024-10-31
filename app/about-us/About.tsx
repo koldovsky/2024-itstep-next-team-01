@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import about_img from '@/public/features/about-cover.png';
-import { Button } from '../button'
+import { Button } from '../components/button'
 
 
 export default function About() {
