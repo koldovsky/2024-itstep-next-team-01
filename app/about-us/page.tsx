@@ -7,24 +7,13 @@ export const metadata = {
   description: "Learn more about Sami's Flowers and our journey.",
 };
 
-<<<<<<< Updated upstream
-export default function AboutUs() {
-    return (
-        <div className="max-w-[1220px] mx-auto flex flex-col items-center justify-center">
-            <PageTitle title="About Sami's Flowers" subtitle="About us" />
-            <About />
-            <MasterClasses />
-        </div>
-    );
-=======
 
 export default function AboutUsPage() {
   return (
     <div className="max-w-[1220px] mx-auto flex flex-col items-center justify-center">
-      <PageTitle />
+      <PageTitle title={metadata.title} subtitle={metadata.description}/>
       <About />
       <MasterClasses />
     </div>
   );
->>>>>>> Stashed changes
 }
