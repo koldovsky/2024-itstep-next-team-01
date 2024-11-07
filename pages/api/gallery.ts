@@ -10,11 +10,11 @@ interface Image {
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
-    const imagesDirectory = path.join(process.cwd(), 'public', 'instagram');
+    const imagesDirectory = path.join(process.cwd(), 'public', 'gallery');
     const filenames = fs.readdirSync(imagesDirectory);
     const images: Image[] = filenames.map((filename) => ({
       id: filename,
-      src: `/instagram/${filename}`,
+      src: `/gallery/${filename}`,
       alt: `Image ${filename}`,
     }));
     res.status(200).json(images);

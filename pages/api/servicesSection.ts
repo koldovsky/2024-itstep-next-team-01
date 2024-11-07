@@ -16,7 +16,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
             id: 'service-1',
             imageSrc: decoration_img.src,
             title: 'Decoration',
-            description: 'We create elegant flower decorations for homes, offices, shops, and other locations. Contact us if you want to demonstrate your style and taste to your guests, clients, or visitors.'
+            description: 'We create elegant flower decorations for homes, offices, shops, and other locations. contacts-container us if you want to demonstrate your style and taste to your guests, clients, or visitors.'
         },
         {
             id: 'service-2',

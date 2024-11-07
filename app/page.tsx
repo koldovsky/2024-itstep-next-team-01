@@ -7,7 +7,7 @@ import AboutUsHome from "./components/Home/AboutUsHome";
 import Description from "./components/Home/Description";
 import NewInShop from "./components/Home/NewInShop";
 import Testimonials from "./components/Home/Testimonials";
-import Instagram from "./components/Home/Instagram";
+import Instagram from "./components/Home/Gallery";
 import ServicesSection from "./components/Home/ServiceSection/ServicesSection";
 
 
