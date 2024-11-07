@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 interface FlowerItem {
-    id:number;
+    id:string;
     Img: string;
     Name: string;
     price: number;
@@ -13,7 +13,7 @@ interface FlowerItem {
 
 const flowerItem: FlowerItem[] = [
     {
-        id: 1,
+        id: "1",
         Img: "/flower.png",
         Name: "Red Rose",
         price: 15.99,
@@ -23,7 +23,7 @@ const flowerItem: FlowerItem[] = [
         currency: "USD"
     },
     {
-        id: 2,
+        id: "2",
         Img: "/flower.png",
         Name: "Yellow Tulip",
         price: 10.49,
@@ -31,7 +31,7 @@ const flowerItem: FlowerItem[] = [
         currency: "USD"
     },
     {
-        id: 3,
+        id: "3",
         Img: "/flower.png",
         Name: "Purple Orchid",
         price: 25.00,
@@ -40,7 +40,7 @@ const flowerItem: FlowerItem[] = [
         currency: "USD"
     },
     {
-        id: 4,
+        id: "4",
         Img: "/flower.png",
         Name: "Sunflower Bouquet",
         price: 20.00,
@@ -50,7 +50,7 @@ const flowerItem: FlowerItem[] = [
         currency: "USD"
     },
     {
-        id: 5,
+        id: "5",
         Img: "/flower.png",
         Name: "White Lily",
         price: 18.75,

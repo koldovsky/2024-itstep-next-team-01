@@ -10,8 +10,6 @@ import Testimonials from "./components/Home/Testimonials";
 import Instagram from "./components/Home/Gallery";
 import ServicesSection from "./components/Home/ServiceSection/ServicesSection";
 
-
-
 export default function Home() {
   return (
     <div className=" max-w-[1220px] mx-auto flex flex-col items-center justify-center">
@@ -21,9 +19,9 @@ export default function Home() {
       <NewInShop />
       <ServicesSection />
       <WorkingSectors />
-        <Description />
-        <Gallery />
-        <SpecialCollections />
+      <Description />
+      <Gallery />
+      <SpecialCollections />
       <Testimonials />
       <Instagram />
     </div>

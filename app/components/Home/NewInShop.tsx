@@ -3,8 +3,10 @@ import { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import ShopItem from '../shopItem'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { CartProvider } from '../cartContext'
+import { Cart } from '../cart'
 interface FlowerItem {
-    id: number;
+    id: string;
     Img: string;
     Name: string;
     price: number;
@@ -35,10 +37,12 @@ const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
         <ChevronLeft className="h-4 w-4" />
     </div>
 )
-
+interface NewInShopProps {
+    shopItems: FlowerItem[]
+}
 export default function NewInShop() {
-    const [shopItems, setsShopItems] = useState<FlowerItem[]>([])
     const [slidesToShow, setSlidesToShow] = useState(4)
+    const [shopItems, setsShopItems] = useState<FlowerItem[]>([])
 
     useEffect(() => {
         async function fetchData() {
@@ -49,6 +53,7 @@ export default function NewInShop() {
         fetchData();
 
     }, []);
+
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 640) {
@@ -98,7 +103,7 @@ export default function NewInShop() {
     }
 
     return (
-        <section>
+        <CartProvider>
             <div className="flex flex-col text-center">
                 <label className="text-3xl font-mrsSaint text-specialText">New  in  shop</label>
                 <h2 className="font-frank text-5xl text-primaryText">New in Shop Bouquets</h2>
@@ -108,24 +113,17 @@ export default function NewInShop() {
             <div className="max-w-7xl mx-auto py-12">
                 <div className="relative w-screen xl:w-11/12 mx-auto">
                     <Slider {...settings}>
-                        {shopItems.map((item) => (
-                            <div key={item.id}>
+                        {shopItems.map((product) => (
+                            <div key={product.id}>
                                 <ShopItem
-                                    Img={item.Img}
-                                    Name={item.Name}
-                                    price={item.price}
-                                    sale={item.sale}
-                                    currency={item.currency}
-                                    inStock={item.inStock}
-                                    label={item.label}
-                                    onAddToCart={() => console.log(`Added ${item.Name} to cart`)}
+                                    {...product}
                                 />
                             </div>
                         ))}
                     </Slider>
-
                 </div>
             </div>
-        </section>
+            <Cart/>
+        </CartProvider>
     )
 }
