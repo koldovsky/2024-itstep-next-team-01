@@ -3,10 +3,11 @@ import MasterClasses from "@/app/about-us/MasterClasses/MasterClassesSection";
 import About from "./About";
 
 export const metadata = {
-    title: "About Us - Sami's Flowers",
-    description: "Learn more about Sami's Flowers and our journey.",
+  title: "About Us - Sami's Flowers",
+  description: "Learn more about Sami's Flowers and our journey.",
 };
 
+<<<<<<< Updated upstream
 export default function AboutUs() {
     return (
         <div className="max-w-[1220px] mx-auto flex flex-col items-center justify-center">
@@ -15,4 +16,15 @@ export default function AboutUs() {
             <MasterClasses />
         </div>
     );
+=======
+
+export default function AboutUsPage() {
+  return (
+    <div className="max-w-[1220px] mx-auto flex flex-col items-center justify-center">
+      <PageTitle />
+      <About />
+      <MasterClasses />
+    </div>
+  );
+>>>>>>> Stashed changes
 }
