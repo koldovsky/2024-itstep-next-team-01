@@ -23,6 +23,8 @@ const config: Config = {
         primaryButtonHover:'#7c7669',
         secondaryButton:'#7C7669',
         labelbg: '#F1AA47',
+        placeholderBg:'#ededea',
+        placeholderText:'#6f6c4e',
       },
       fontFamily: {
         inter: ['var(--font-inter)'],
