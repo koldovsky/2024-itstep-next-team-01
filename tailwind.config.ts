@@ -23,6 +23,10 @@ const config: Config = {
         primaryButtonHover:'#7c7669',
         secondaryButton:'#7C7669',
         labelbg: '#F1AA47',
+        cardbg: '#CFCEB8',
+        cardJoinUsbg: '#B7BEC6',
+        cardTitleText: '#F6F1ED',
+
       },
       fontFamily: {
         inter: ['var(--font-inter)'],
