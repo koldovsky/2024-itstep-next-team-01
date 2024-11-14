@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import { Button } from './button';
+import { useCart } from './cartContext';
 
 interface FlowerItem {
+    id: string;
     Img: string;
     Name: string;
     price: number;
@@ -9,11 +11,11 @@ interface FlowerItem {
     sale?: number;
     label?: string;
     currency: string;
-    onAddToCart: () => void
 }
 
 
 export default function ShopItem({
+    id,
     Img,
     Name,
     price,
@@ -21,17 +23,19 @@ export default function ShopItem({
     sale,
     label,
     currency,
-    onAddToCart
 }: FlowerItem = {
+        id: 'sample',
         Img: '/placeholder.svg?height=200&width=200',
         Name: 'Sample Product',
         price: 19.99,
         currency: 'USD',
         inStock: true,
-        onAddToCart: () => console.log('Add to cart clicked')
     }) {
+    const { addToCart } = useCart()
     const stockLabel = !inStock ? "Out of Stock" : label
-
+    const handleAddToCart = () => {
+        addToCart({ id, name: Name, price: sale || price, quantity: 1, image: Img})
+    }
     return (
         <div className={`max-w-md mx-auto overflow-hidden  ${!inStock ? 'opacity-75' : ''}`}>
             <div className="relative">
@@ -63,7 +67,7 @@ export default function ShopItem({
                     )}
                 </div>
                 <Button
-                    onClick={onAddToCart}
+                    onClick={handleAddToCart}
                     className="w-full"
                     disabled={!inStock}
                     variant={'secondary'}
