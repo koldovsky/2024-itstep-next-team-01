@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ShoppingCart } from 'lucide-react'
 import { useCart } from './cartContext'
-import { Button } from './button'
+// import { Button } from './button'
 import { CartModal } from './cartModal'
 
 export const Cart: React.FC = () => {
