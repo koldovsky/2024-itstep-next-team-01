@@ -9,6 +9,7 @@ import NewInShop from "./components/Home/NewInShop";
 import Testimonials from "./components/Home/Testimonials";
 import Instagram from "./components/Home/Gallery";
 import ServicesSection from "./components/Home/ServiceSection/ServicesSection";
+import Cta from "./components/Home/Cta";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUsHome />
       <NewInShop />
       <ServicesSection />
+      <Cta />
       <WorkingSectors />
       <Description />
       <Gallery />
