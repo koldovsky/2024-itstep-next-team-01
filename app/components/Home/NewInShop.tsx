@@ -37,9 +37,9 @@ const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
         <ChevronLeft className="h-4 w-4" />
     </div>
 )
-interface NewInShopProps {
-    shopItems: FlowerItem[]
-}
+// interface NewInShopProps {
+//     shopItems: FlowerItem[]
+// }
 export default function NewInShop() {
     const [slidesToShow, setSlidesToShow] = useState(4)
     const [shopItems, setsShopItems] = useState<FlowerItem[]>([])
