@@ -34,7 +34,8 @@ const config: Config = {
         mrsSaint: ['var(--font-mrs_saint_delafield)'],
       },
       backgroundImage: {
-        'backgroundTitle': "url('/pageTitle/Image.png')",      }
+        'backgroundTitle': "url('/pageTitle/Image.png')",
+        'backgroundContact' : "url('/ctaContacts/cover.png')",  }
     },
   },
   plugins: [],
