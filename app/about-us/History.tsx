@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
-import history_cover from '../../../public/history-cover.png';
-import history_img from '../../../public/history.png';
+import history_cover from '../../public/history-cover.png';
+import history_img from '../../public/history.png';
 
 
 export default function History() {
