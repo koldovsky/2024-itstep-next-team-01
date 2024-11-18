@@ -1,32 +1,113 @@
-import React, { lazy } from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { useCart } from './cartContext'
 import { X } from 'lucide-react'
+import { Button } from './button'
 
 interface CartModalProps {
     isOpen: boolean
     onClose: () => void
 }
 
+interface FormData {
+    name: string
+    email: string
+    phone: string
+    comment: string
+}
+
+interface FormErrors {
+    name?: string
+    email?: string
+    phone?: string
+}
+
+type FormField = 'name' | 'email' | 'phone'
+
 export const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
     const { items, removeFromCart, updateQuantity, getTotalPrice } = useCart()
+    const [formData, setFormData] = useState<FormData>({
+        name: '',
+        email: '',
+        phone: '',
+        comment: ''
+    })
+    const [formErrors, setFormErrors] = useState<FormErrors>({})
+
     const orderInputs = [
         {
             label: 'Name',
             placeholder: 'Your name',
             inputType: 'text',
+            name: 'name' as FormField,
         },
         {
             label: 'Email',
-            placeholder: 'Your email adress',
+            placeholder: 'Your email address',
             inputType: 'email',
+            name: 'email' as FormField,
         },
         {
             label: 'Phone',
             placeholder: 'Your phone',
             inputType: 'number',
+            name: 'phone' as FormField,
         },
     ]
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target
+        setFormData(prev => ({ ...prev, [name]: value }))
+        if (name !== 'comment') {
+            validateField(name as FormField, value)
+        }
+    }
+
+    const validateField = (fieldName: FormField, value: string) => {
+        let error = ''
+        switch (fieldName) {
+            case 'name':
+                if (!value.trim()) error = 'Name is required'
+                break
+            case 'email':
+                if (!value.trim()) {
+                    error = 'Email is required'
+                } else if (!/\S+@\S+\.\S+/.test(value)) {
+                    error = 'Email is invalid'
+                }
+                break
+            case 'phone':
+                if (!value.trim()) {
+                    error = 'Phone is required'
+                } else if (!/^\d{10}$/.test(value.replace(/\D/g, ''))) {
+                    error = 'Phone number must be 10 digits'
+                }
+                break
+        }
+        setFormErrors(prev => ({ ...prev, [fieldName]: error }))
+    }
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault()
+        const errors: FormErrors = {}
+        orderInputs.forEach(({ name }) => {
+            validateField(name, formData[name])
+            if (formErrors[name]) {
+                errors[name] = formErrors[name]
+            }
+        })
+
+        if (Object.keys(errors).length === 0) {
+            // Submit the form
+            console.log('Form submitted:', formData)
+            // You can add your form submission logic here
+        } else {
+            setFormErrors(errors)
+        }
+    }
+
     if (!isOpen) return null
 
     return (
@@ -72,24 +153,42 @@ export const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
                     <span className="text-lg">${Number.isNaN(getTotalPrice()) ? 0 : getTotalPrice()}</span>
                 </div>
                 <p className='text-sm my-5 text-secondaryText'>Place an order</p>
-                <div className='flex flex-col gap-5'>
+                <form onSubmit={handleSubmit} className='flex flex-col gap-5'>
                     {orderInputs.map((input) => (
-                        <div>
+                        <div key={input.name}>
                             <label className='text-contentText text-md flex flex-col gap-3'>
                                 {input.label}
                                 <input
                                     type={input.inputType}
+                                    name={input.name}
                                     placeholder={input.placeholder}
-                                    className='bg-placeholderBg placeholder:text-placeholderText h-14 px-3' />
+                                    value={formData[input.name]}
+                                    onChange={handleInputChange}
+                                    className='bg-placeholderBg placeholder:text-placeholderText h-14 px-3'
+                                />
                             </label>
+                            {formErrors[input.name] && (
+                                <p className="text-red-500 text-sm mt-1">{formErrors[input.name]}</p>
+                            )}
                         </div>
                     ))}
                     <label className='text-contentText text-md flex flex-col gap-3'>
                         Comment
-                        <textarea className='bg-placeholderBg placeholder:text-placeholderText p-3 h-25' placeholder='Your comment' wrap='hard'>
-                        </textarea>
+                        <textarea 
+                            name="comment"
+                            value={formData.comment}
+                            onChange={handleInputChange}
+                            className='bg-placeholderBg placeholder:text-placeholderText p-3 h-25' 
+                            placeholder='Your comment' 
+                            wrap='hard'
+                        />
                     </label>
-                </div>
+                    <div className='w-full flex justify-center mt-10'>
+                        <Button type="submit" variant={'primary'}>
+                            ORDER
+                        </Button>
+                    </div>
+                </form>
             </div>
         </div>
     )

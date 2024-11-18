@@ -110,7 +110,7 @@ export default function NewInShop() {
                 <hr className='text-hrColor w-2/12 border-2 my-3 mx-auto' />
                 <p className="font-inter text-secondaryText">Select your bouquet and get it delivered in the shortest possible time!</p>
             </div>
-            <div className="max-w-7xl mx-auto py-12">
+            <div className="max-w-7xl mx-auto py-12 w-screen">
                 <div className="relative w-screen xl:w-11/12 mx-auto">
                     <Slider {...settings}>
                         {shopItems.map((product) => (
