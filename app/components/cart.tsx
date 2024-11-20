@@ -10,6 +10,8 @@ export const Cart: React.FC = () => {
 
     const totalItems = items.reduce((sum, item) => sum + item.quantity, 0)
 
+    if(totalItems == 0) return null
+
     return (
         <div className="fixed top-20 right-4 z-50">
             <button

@@ -26,7 +26,8 @@ const config: Config = {
         cardbg: '#CFCEB8',
         cardJoinUsbg: '#B7BEC6',
         cardTitleText: '#F6F1ED',
-
+        placeholderBg:'#ededea',
+        placeholderText:'#6f6c4e',
       },
       fontFamily: {
         inter: ['var(--font-inter)'],
