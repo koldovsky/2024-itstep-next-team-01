@@ -150,7 +150,7 @@ export const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
                 </div>
                 <div className="mt-6 flex justify-end items-center text-secondaryText gap-5">
                     <span className="text-lg font-semibold">Total:</span>
-                    <span className="text-lg">${Number.isNaN(getTotalPrice()) ? 0 : getTotalPrice()}</span>
+                    <span className="text-lg">${Number.isNaN(getTotalPrice()) ? 0 : getTotalPrice().toFixed(2)}</span>
                 </div>
                 <p className='text-sm my-5 text-secondaryText'>Place an order</p>
                 <form onSubmit={handleSubmit} className='flex flex-col gap-5'>
