@@ -3,6 +3,7 @@ import MasterClasses from "@/app/about-us/MasterClasses/MasterClassesSection";
 import About from "./About";
 import Partners from "./partners";
 import OurTeam from "./OurTeam/OurTeam";
+import Quote from "./Quote";
 
 export const metadata = {
   title: "About Us - Sami's Flowers",
@@ -17,6 +18,7 @@ export default function AboutUsPage() {
       <About />
       <Partners />
       <OurTeam />
+      <Quote />
       <MasterClasses />
     </div>
   );

@@ -12,6 +12,7 @@ const config: Config = {
         headerBg: '#F6F1ED',
         primaryText: '#7C7669',
         footerText: '#8b7f74',
+        primeryBorder: '#9E9686',
         footerHoverText: '#6b5b53',
         hoverText: '#9CA3AF',
         overlayBg: '#F6F1ED',
