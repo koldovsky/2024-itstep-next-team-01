@@ -2,6 +2,7 @@ import PageTitle from "@/app/components/PageTitle";
 import MasterClasses from "@/app/about-us/MasterClasses/MasterClassesSection";
 import About from "./About";
 import Partners from "./partners";
+import OurTeam from "./OurTeam/OurTeam";
 
 export const metadata = {
   title: "About Us - Sami's Flowers",
@@ -15,6 +16,7 @@ export default function AboutUsPage() {
       <PageTitle title={metadata.title} subtitle={metadata.description}/>
       <About />
       <Partners />
+      <OurTeam />
       <MasterClasses />
     </div>
   );
