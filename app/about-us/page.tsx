@@ -1,6 +1,5 @@
 import PageTitle from "@/app/components/PageTitle";
 import MasterClasses from "@/app/about-us/MasterClasses/MasterClassesSection";
-
 import About from "./About";
 import Partners from "./partners";
 import History from "./History"
@@ -18,7 +17,6 @@ export default function AboutUsPage() {
       <About />
       <Partners />
       <MasterClasses />
-      <MasterClasses/>
         <History />
     </div>
   );
